@@ -1,50 +1,3 @@
-# ✨ So you want to sponsor a contest
-
-This `README.md` contains a set of checklists for our contest collaboration.
-
-Your contest will use two repos: 
-- **a _contest_ repo** (this one), which is used for scoping your contest and for providing information to contestants (wardens)
-- **a _findings_ repo**, where issues are submitted (shared with you after the contest) 
-
-Ultimately, when we launch the contest, this contest repo will be made public and will contain the smart contracts to be reviewed and all the information needed for contest participants. The findings repo will be made public after the contest report is published and your team has mitigated the identified issues.
-
-Some of the checklists in this doc are for **C4 (🐺)** and some of them are for **you as the contest sponsor (⭐️)**.
-
----
-
-# Contest setup
-
-## ⭐️ Sponsor: Provide contest details
-
-Under "SPONSORS ADD INFO HERE" heading below, include the following:
-
-- [ ] Create a PR to this repo with the below changes:
-- [ ] Name of each contract and:
-  - [ ] source lines of code (excluding blank lines and comments) in each
-  - [ ] external contracts called in each
-  - [ ] libraries used in each
-- [ ] Describe any novel or unique curve logic or mathematical models implemented in the contracts
-- [ ] Does the token conform to the ERC-20 standard? In what specific ways does it differ?
-- [ ] Describe anything else that adds any special logic that makes your approach unique
-- [ ] Identify any areas of specific concern in reviewing the code
-- [ ] Add all of the code to this repo that you want reviewed
-
-
----
-
-# Contest prep
-
-## ⭐️ Sponsor: Contest prep
-- [ ] Provide a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
-- [ ] Make sure your code is thoroughly commented using the [NatSpec format](https://docs.soliditylang.org/en/v0.5.10/natspec-format.html#natspec-format).
-- [ ] Modify the bottom of this `README.md` file to describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing. ([Here's a well-constructed example.](https://github.com/code-423n4/2021-06-gro/blob/main/README.md))
-- [ ] Please have final versions of contracts and documentation added/updated in this repo **no less than 24 hours prior to contest start time.**
-- [ ] Be prepared for a 🚨code freeze🚨 for the duration of the contest — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the contest. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
-- [ ] Promote the contest on Twitter (optional: tag in relevant protocols, etc.)
-- [ ] Share it with your own communities (blog, Discord, Telegram, email newsletters, etc.)
-- [ ] Optional: pre-record a high-level overview of your protocol (not just specific smart contract functions). This saves wardens a lot of time wading through documentation.
-- [ ] Delete this checklist and all text above the line below when you're ready.
-
 ---
 
 # Inverse Finance contest details
@@ -56,4 +9,81 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Starts October 25, 2022 20:00 UTC
 - Ends October 30, 2022 20:00 UTC
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+
+## Fixed Rates Market Protocol Overview
+FiRM is an over collateralized money market protocol for borrowing the DOLA stablecoin at a fixed price, over an arbitrary period of time. This is accomplished with the *Dola Borrowing Rights*token  (**DBR**) .
+One DBR token gives the right to borrow one DOLA for one year. As time progresses, DBR will be burnt from the borrower's wallet at a rate that depends on their debt. A borrower may repay their loan at any time, and sell their DBR at a potential profit, if interest rates have gone up. DBR are minted and offered to the market by Inverse Finance. DBR liquidity and market making is outside the scope of this contest.
+
+The DOLA stablecoin is Inverse Finance's own stablecoin, which has it's peg actively managed by a system of Fed contracts, that enact expansionary or contractionary monetary policy to keep the peg of the stable coin near 1$. The Fed attached to FiRM protocol markets lend DOLA to the markets by expanding supply, and contracts supply by recalling dola from the markets. DOLA is the only borrowable asset in the FiRM protocol.
+## Architecture
+Simplified overview of the FiRM architecture:
+<img src="SimplifiedArchitecture.png" height="600" >
+
+###Contracts
+**Market.sol (SLOCs: 346)**
+The market contract is the central contract of the FiRM protocol and contains most logic pertaining to borrowing and liquidations. A DOLA Fed mints DOLA to a market, which is then available to borrow for users holding DBR, using the Borrow function.
+
+If a borrower's credit limit falls below the value of their outstanding debt, a percentage of their collateral may be liquidated on behalf of the protocol. The liquidation carries an additional fee, which will be paid out to the liquidator, and may benefit protocol governance as well.
+
+Markets do not hold any collateral, but instead deposits and withdraws collateral from Escrows unique to each user and market.
+
+External Contracts Called:
+- ERC20 DOLA
+- ERC20 Collateral
+
+**DBR.sol (SLOCs: 228)**
+The DBR token differs from standard ERC20 tokens in a few ways. It will actively be burnt from user's wallets, as they hold debt within the broader FiRM system, which can not just go to 0, but can drop into a deficit.
+
+Since the burn rate is deterministic depending on the user's debt, it's only necessary to update the accrued debt whenever the borrower increase or decrease their debt position.
+
+The borrower can be forced to replenish their DBR balance through a *forced replenishment*. Force replenishments will mint fresh DBR tokens to a user, at a price high enough that it's unnecessary to  query an oracle about the market value of DBR tokens. To pay for the forced replenishment, additional DOLA debt is accrued to the borrower. Forced replenishments can be initiated by anyone and will immediately pay out  a percentage of the debt accrued by the action to the caller.
+
+External Contracts Called: None
+
+**BorrowController.sol (SLOCs: 19)**
+A borrow controller contract is connected to the market, which may add additional logic to who may borrow. In this implementation it's a simple contract allow list.
+
+External Contracts Called: None
+
+**Oracle.sol (SLOCs: 46)**
+External Contracts Called:
+- ChalinkFeed feed
+
+**Fed.sol (SLOCs: 83)**
+Feds are a class of contracts in the Inverse Finance ecosystem responsible for minting DOLA in a way that preserves the peg and can't be easily abused. In the FiRM protocol, the role of the Fed is to supply and remove DOLA to and from markets. The Fed contract is essentially the only lender in the protocol.
+
+External Contracts Called:
+- ERC20 DOLA
+
+
+####Escrow Contracts
+User's collateral are not held in the market contract, but are instead held in individual escrows. Every user has a unique escrow for every market. This allows for unique collateral interactions, like individually delegating votes for governance tokens. These are deployed as [minimal proxies](https://eips.ethereum.org/EIPS/eip-1167) to save gas. 
+
+**SimpleERC20Escrow.sol (SLOCs: 22)**
+Basic escrow implementation.
+ External Contracts Called:
+- ERC20 token
+ 
+**INVEscrow.sol (SLOCs: 56)**
+Token escrow that deposits INV into xINV tokens, and allows the depositor to delegate voting power in the Inverse DAO.
+External Contracts Called:
+- ERC20 token
+- xINV xINV
+
+**GovTokenEscrow.sol (SLOCs: 31)**
+An example token escrow implementation that highlights the ability of escrow contracts to allow individual delegation of governance tokens used as collateral.
+External Contracts Called:
+- ERC20 token
+
+### Special areas of concern for Wardens
+We would like wardens to pay special attention to any issues that may:
+1. Allow an attacker to borrow or transfer DOLA without fulfilling the necessary collateral requirements.
+2. Allow an attacker to manipulate the price feed of the oracle, leading to undue liquidations or allowing them to borrow more than they should.
+3. Allow an attacker to withdraw funds from other users, or lock user funds in escrows.
+4. Allow an attacker to avoid paying their DBR deficit, beyond neglible dust amounts.
+5. Cause accounting errors that may cause the contracts to automatically revert, either unintentionally or maliciously provoked.
+
+### Setup
+FiRM is built using the Foundry framework. An installation guide can be found [here](https://book.getfoundry.sh/getting-started/installation). There are no other dependencies.
+### Tests
+The test suite can be run with a simple "`forge test`". "`forge test --gas-report`" can be run for a detailed gas report.  Additional test options can be found [here](https://book.getfoundry.sh/reference/forge/forge-test).
