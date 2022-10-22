@@ -62,7 +62,7 @@ External Contracts Called:
 - ERC20 DOLA
 
 
-####Escrow Contracts
+#### Escrow Contracts
 User's collateral are not held in the market contract, but are instead held in individual escrows. Every user has a unique escrow for every market. This allows for unique collateral interactions, like individually delegating votes for governance tokens. These are deployed as [minimal proxies](https://eips.ethereum.org/EIPS/eip-1167) to save gas. 
 
 **SimpleERC20Escrow.sol (SLOCs: 22)**
