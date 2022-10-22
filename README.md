@@ -53,7 +53,7 @@ The Pessimistic Oracle introduces collateral factor into the pricing formula. It
 This has the advantage of making price manipulation attacks more difficult, as an attacker needs to log artificially high lows.
 It has the disadvantage of reducing borrow power of borrowers to a 2-day minimum value of their collateral, where the value must have been seen by the oracle.
 External Contracts Called:
-- ChalinkFeed feed
+- Chainlink Feed
 
 **Fed.sol (SLOCs: 83)**
 Feds are a class of contracts in the Inverse Finance ecosystem responsible for minting DOLA in a way that preserves the peg and can't be easily abused. In the FiRM protocol, the role of the Fed is to supply and remove DOLA to and from markets. The Fed contract is essentially the only lender in the protocol.
@@ -88,7 +88,7 @@ We would like wardens to pay special attention to any issues that may:
 3. Allow an attacker to withdraw funds from other users, or lock user funds in escrows.
 4. Allow an attacker to avoid paying their DBR deficit, beyond negligible dust amounts.
 5. Cause accounting errors that may cause the contracts to automatically revert, either unintentionally or maliciously provoked.
-6. Allow an attacker to bypass the price dampening funcitonality of the pessimistic oracle.
+6. Allow an attacker to bypass the price dampening functionality of the pessimistic oracle.
 
 ### Setup
 FiRM is built using the Foundry framework. An installation guide can be found [here](https://book.getfoundry.sh/getting-started/installation). There are no other dependencies.
