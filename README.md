@@ -18,7 +18,7 @@ The DOLA stablecoin is Inverse Finance's own stablecoin, which has it's peg acti
 ## Architecture
 Simplified overview of the FiRM architecture:
 
-<img width="400" alt="SimplifiedArchitecture" src="https://user-images.githubusercontent.com/85371239/197343588-ddc1925a-94e2-4b9e-a91f-79310e00c4fe.png">
+![image](https://user-images.githubusercontent.com/85371239/197343588-ddc1925a-94e2-4b9e-a91f-79310e00c4fe.png)
 
 ## Contracts
 
