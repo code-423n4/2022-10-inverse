@@ -17,9 +17,11 @@ One DBR token gives the right to borrow one DOLA for one year. As time progresse
 The DOLA stablecoin is Inverse Finance's own stablecoin, which has it's peg actively managed by a system of Fed contracts, that enact expansionary or contractionary monetary policy to keep the peg of the stable coin near 1$. The Fed attached to FiRM protocol markets lend DOLA to the markets by expanding supply, and contracts supply by recalling dola from the markets. DOLA is the only borrowable asset in the FiRM protocol.
 ## Architecture
 Simplified overview of the FiRM architecture:
-![Simplified overview](SimplifiedArchitecture.png" "Simplified overview")
 
-###Contracts
+<img width="400" alt="SimplifiedArchitecture" src="https://user-images.githubusercontent.com/85371239/197343588-ddc1925a-94e2-4b9e-a91f-79310e00c4fe.png">
+
+## Contracts
+
 **Market.sol (SLOCs: 377)**
 The market contract is the central contract of the FiRM protocol and contains most logic pertaining to borrowing and liquidations. A DOLA Fed mints DOLA to a market, which is then available to borrow for users holding DBR, using the Borrow function.
 
