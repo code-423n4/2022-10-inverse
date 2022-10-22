@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "./FrontierV2Test.sol";
+import "./FiRMTest.sol";
 import "../BorrowController.sol";
 import "../DBR.sol";
 import "../Fed.sol";
@@ -15,7 +15,7 @@ import "./mocks/WETH9.sol";
 import "./mocks/BorrowContract.sol";
 import {EthFeed} from "./mocks/EthFeed.sol";
 
-contract MarketTest is FrontierV2Test {
+contract MarketTest is FiRMTest {
     bytes onlyGovUnpause = "Only governance can unpause";
     bytes onlyPauseGuardianOrGov = "Only pause guardian or governance can pause";
 
@@ -586,7 +586,8 @@ contract MarketTest is FrontierV2Test {
         deposit(wethTestAmount);
         market.borrow(borrowAmount);
         uint collateralBalance = market.escrows(user).balance();
-        uint minimumCollateral = borrowAmount * 1 ether / oracle.getPrice(address(WETH)) * 10000 / market.collateralFactorBps();
+        uint collateralFactor = market.collateralFactorBps();
+        uint minimumCollateral = borrowAmount * 1 ether / oracle.viewPrice(address(WETH), collateralFactor) * 10000 / collateralFactor;
         assertEq(market.getWithdrawalLimit(user), collateralBalance - minimumCollateral, "Should return collateral balance adjusted for debt");
     }
 

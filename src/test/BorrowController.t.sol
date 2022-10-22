@@ -4,9 +4,9 @@ pragma solidity ^0.8.13;
 import "forge-std/Test.sol";
 import "../BorrowController.sol";
 import "./mocks/BorrowContract.sol";
-import "./FrontierV2Test.sol";
+import "./FiRMTest.sol";
 
-contract BorrowControllerTest is FrontierV2Test {
+contract BorrowControllerTest is FiRMTest {
     BorrowContract borrowContract;
     bytes onlyOperatorLowercase = "Only operator";
 

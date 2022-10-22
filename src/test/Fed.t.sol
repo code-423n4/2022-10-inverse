@@ -3,9 +3,9 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 import "../Fed.sol";
-import "./FrontierV2Test.sol";
+import "./FiRMTest.sol";
 
-contract FedTest is FrontierV2Test {
+contract FedTest is FiRMTest {
     bytes onlyGovUpper = "ONLY GOV";
     bytes unsupportedMarket = "UNSUPPORTED MARKET";
     bytes tooBig = "AMOUNT TOO BIG";

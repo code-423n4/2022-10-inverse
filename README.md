@@ -20,7 +20,7 @@ Simplified overview of the FiRM architecture:
 ![Simplified overview](SimplifiedArchitecture.png" "Simplified overview")
 
 ###Contracts
-**Market.sol (SLOCs: 355)**
+**Market.sol (SLOCs: 377)**
 The market contract is the central contract of the FiRM protocol and contains most logic pertaining to borrowing and liquidations. A DOLA Fed mints DOLA to a market, which is then available to borrow for users holding DBR, using the Borrow function.
 
 If a borrower's credit limit falls below the value of their outstanding debt, a percentage of their collateral may be liquidated on behalf of the protocol. The liquidation carries an additional fee, which will be paid out to the liquidator, and may benefit protocol governance as well.
@@ -45,7 +45,11 @@ A borrow controller contract is connected to the market, which may add additiona
 
 External Contracts Called: None
 
-**Oracle.sol (SLOCs: 46)**
+**Oracle.sol (SLOCs: 85)**
+The Oracle is a pessimistic oracle, logging the lowest price of the day, whenever it's getPrice() function sees a new low price.
+The Pessimistic Oracle introduces collateral factor into the pricing formula. It ensures that any given oracle price is dampened to prevent borrowers from borrowing more than the lowest recorded value of their collateral over the past 2 days.
+This has the advantage of making price manipulation attacks more difficult, as an attacker needs to log artificially high lows.
+It has the disadvantage of reducing borrow power of borrowers to a 2-day minimum value of their collateral, where the value must have been seen by the oracle.
 External Contracts Called:
 - ChalinkFeed feed
 
@@ -82,6 +86,7 @@ We would like wardens to pay special attention to any issues that may:
 3. Allow an attacker to withdraw funds from other users, or lock user funds in escrows.
 4. Allow an attacker to avoid paying their DBR deficit, beyond negligible dust amounts.
 5. Cause accounting errors that may cause the contracts to automatically revert, either unintentionally or maliciously provoked.
+6. Allow an attacker to bypass the price dampening funcitonality of the pessimistic oracle.
 
 ### Setup
 FiRM is built using the Foundry framework. An installation guide can be found [here](https://book.getfoundry.sh/getting-started/installation). There are no other dependencies.

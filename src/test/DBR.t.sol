@@ -3,9 +3,9 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 import "../DBR.sol";
-import "./FrontierV2Test.sol";
+import "./FiRMTest.sol";
 
-contract DBRTest is FrontierV2Test {
+contract DBRTest is FiRMTest {
     address operator;
 
     bytes onlyPendingOperator = "ONLY PENDING OPERATOR";
