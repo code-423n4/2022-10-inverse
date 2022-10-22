@@ -17,10 +17,10 @@ One DBR token gives the right to borrow one DOLA for one year. As time progresse
 The DOLA stablecoin is Inverse Finance's own stablecoin, which has it's peg actively managed by a system of Fed contracts, that enact expansionary or contractionary monetary policy to keep the peg of the stable coin near 1$. The Fed attached to FiRM protocol markets lend DOLA to the markets by expanding supply, and contracts supply by recalling dola from the markets. DOLA is the only borrowable asset in the FiRM protocol.
 ## Architecture
 Simplified overview of the FiRM architecture:
-<img src="SimplifiedArchitecture.png" height="600" >
+![Simplified overview](SimplifiedArchitecture.png" "Simplified overview")
 
 ###Contracts
-**Market.sol (SLOCs: 346)**
+**Market.sol (SLOCs: 355)**
 The market contract is the central contract of the FiRM protocol and contains most logic pertaining to borrowing and liquidations. A DOLA Fed mints DOLA to a market, which is then available to borrow for users holding DBR, using the Borrow function.
 
 If a borrower's credit limit falls below the value of their outstanding debt, a percentage of their collateral may be liquidated on behalf of the protocol. The liquidation carries an additional fee, which will be paid out to the liquidator, and may benefit protocol governance as well.
@@ -80,7 +80,7 @@ We would like wardens to pay special attention to any issues that may:
 1. Allow an attacker to borrow or transfer DOLA without fulfilling the necessary collateral requirements.
 2. Allow an attacker to manipulate the price feed of the oracle, leading to undue liquidations or allowing them to borrow more than they should.
 3. Allow an attacker to withdraw funds from other users, or lock user funds in escrows.
-4. Allow an attacker to avoid paying their DBR deficit, beyond neglible dust amounts.
+4. Allow an attacker to avoid paying their DBR deficit, beyond negligible dust amounts.
 5. Cause accounting errors that may cause the contracts to automatically revert, either unintentionally or maliciously provoked.
 
 ### Setup
