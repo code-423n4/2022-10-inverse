@@ -1,5 +1,3 @@
----
-
 # Inverse Finance contest details
 - $47,500 USDC main award pot
 - $2,500 USDC gas optimization award pot
@@ -9,6 +7,11 @@
 - Starts October 25, 2022 20:00 UTC
 - Ends October 30, 2022 20:00 UTC
 
+## C4udit / Publicly Known Issues
+
+The C4audit output for the contest can be found [here](https://gist.github.com/Picodes/8d3a45d6d1362fb9953d631d8c84a29f).
+
+*Note for C4 wardens: Anything included in the C4udit output is considered a publicly known issue and is ineligible for awards.*
 
 ## Fixed Rates Market Protocol Overview
 FiRM is an over collateralized money market protocol for borrowing the DOLA stablecoin at a fixed price, over an arbitrary period of time. This is accomplished with the *Dola Borrowing Rights*token  (**DBR**) .
