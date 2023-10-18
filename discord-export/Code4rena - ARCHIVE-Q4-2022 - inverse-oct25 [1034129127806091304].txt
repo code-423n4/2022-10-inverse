@@ -1,0 +1,2155 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2022 / inverse-oct25
+==============================================================
+
+[10/24/2022 15:45] itsmetechjay (pinned)
+👋 Hello and welcome to the contest channel for the $50K USDC **Inverse Finance **contest!
+
+📆 Contest opens Tuesday, 25 October 2022 20:00 (20:00 UTC) and runs through Sunday, 30 October 2022 20:00 (20:00 UTC) (5 days).
+
+Please give a warm welcome to the Inverse Finance team, particularly @yellowtail, @edo | Inverse, @cryptoharry, @0xMT, @Nour who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-10-inverse-finance-contest
+
+{Embed}
+https://code4rena.com/contests/2022-10-inverse-finance-contest
+Code4rena Inverse Finance contest
+$50,000 USDC
+25 October 2022—30 October 2022
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+🔥 (7) 
+
+[10/24/2022 15:47] codingnamekiki
+:PU_ElegantPepe:
+
+
+[10/25/2022 14:59] 0xmt
+Hey wardens! I'm one of the solidity devs @ Inverse. Feel free to ping me if you have any questions about the codebase! I'm located at UTC+8, so response time may vary depending on where on the globe you're hacking from!
+
+{Reactions}
+👋 (12) hi5 (3) 
+
+[10/25/2022 17:38] carlitox477
+Any documentation about the code to audit available?
+
+
+[10/25/2022 17:52] edo4889
+Yes, it will be made available just as soon as the contest starts in ~2 hours.
+
+{Reactions}
+thankyou (3) 
+
+[10/25/2022 19:27] edo4889
+Between @Nour(UTC +2), @yellowtail(UTC -7), @0xMT (UTC +8), we have 24-hour coverage so please do not hesitate to reach out here or to one of them individually with any questions that may come up!
+
+{Reactions}
+🚀 (5) 
+
+[10/25/2022 19:27] edo4889
+30 min till we're live!
+
+
+[10/25/2022 19:28] codingnamekiki
+Yes sir
+
+
+[10/25/2022 19:28] codingnamekiki
+:catvibe:
+
+
+[10/25/2022 20:05] thepicodes (pinned)
+**Automated findings:** https://gist.github.com/Picodes/8d3a45d6d1362fb9953d631d8c84a29f
+
+{Reactions}
+thankyou (4) 
+
+[10/25/2022 20:06] carlitox477
+Is it anywhere else where we can read about this fixed rates market protocol?
+
+
+[10/25/2022 20:06] Franfran#5067
+**Fed.sol** :thisisfine:
+
+{Reactions}
+hyperkek (2) 
+
+[10/25/2022 20:08] itsmetechjay
+Pinned a message.
+
+
+[10/25/2022 20:08] itsmetechjay (pinned)
+@🐺wardens - please note that c4udit output has been posted above and added to pinned posts. These are considered publicly known issues and are not eligible for awards.
+
+Automated findings: https://gist.github.com/Picodes/8d3a45d6d1362fb9953d631d8c84a29f
+
+This will also be linked in the contest README file shortly.
+
+{Reactions}
+👍 (2) 
+
+[10/25/2022 20:10] olivierdem
+Automated findings just stealing my gas money!!
+
+
+[10/25/2022 20:10] ladboy233
+Automated findings just stealing my gas money!!
+
+{Reactions}
+😞 (2) 
+
+[10/25/2022 20:12] devtooligan
+Noooooooo!  How's my family gonna drink coffee this month?
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/Screen_Shot_2022-10-25_at_1.11.22_PM-CCBEE.png
+
+{Reactions}
+🤣 (20) keku 😂 (2) 
+
+[10/25/2022 20:13] .mathieu
+this always in the automated report
+
+
+[10/25/2022 20:14] itsmetechjay
+Pinned a message.
+
+
+[10/25/2022 20:14] itsmetechjay
+Pinned a message.
+
+
+[10/25/2022 20:15] devtooligan
+oh i havent done a contest recently so am just learning about this Automated findings, lol.   how will my family survive?!? 😆
+
+
+[10/25/2022 20:16] road220
+@Alex The Entreprenerd , great job of improving c4udit! It should definitely bring some extra quality to gas reports!
+
+{Reactions}
+🦾 (5) 
+
+[10/25/2022 20:17] .mathieu
+ahah
+
+
+[10/25/2022 20:17] alextheentreprenerd
+It's not me, credit to @Picodes | Angle @pmerkleplant and @0xKitsune
+
+{Reactions}
+🦾 (7) 
+
+[10/25/2022 21:01] trustminimised
+Yay Foundry!
+
+
+[10/25/2022 21:15] yellowtail#9857
+Hello wardens! I am one of the solidity devs at Inverse here to help with any questions, feel free to DM. My timezone is UTC-7 🙂
+
+{Reactions}
+🐺 (6) 
+
+[10/25/2022 21:20] nourharidy
+Hello everyone, founder and solidity dev at Inverse here. Happy to help with any questions. Feel free to DM also. Timezone is UTC+2
+
+{Reactions}
+🐺 (3) badgerchad 
+
+[10/25/2022 22:13] aviggiano
+hi there
+
+
+[10/25/2022 23:25] _oceansky
+Time will come, that we can't find anything under Non-critical and gas optim because of continuously improving c4 automated findings. I think this is probably the future direction.
+
+{Reactions}
+🤖 (2) 
+
+[10/25/2022 23:48] ladboy233
+Does anyone also see this error?
+
+
+[10/25/2022 23:48] ladboy233
+[FAIL. Reason: Error != expected error: NH{q◄ != ] test_transferFrom_reverts_whenAmountGtAllowance() (gas: 94607)
+
+
+[10/26/2022 00:22] 0xmt
+Likely a foundry versioning error. Have you tried running `foundryup`/updating foundry and seen if it persists?
+
+
+[10/26/2022 00:22] aviggiano
+Question about markets
+
+
+[10/26/2022 02:15] raoul.schaffranek
+Hi there! Which chainlink feeds are you going to use? Couldn't find them in the docs.
+
+
+[10/26/2022 02:54] 0xmt
+For launch we'll most likely only use the ETH feed, but it should be treated as any feed conforming to the interface.
+
+
+[10/26/2022 03:00] raoul.schaffranek
+Got it!
+
+
+[10/26/2022 03:03] raoul.schaffranek
+Just to be sure that I understand correctly: So, if the collateral is WETH, the ETH/USD-feed would be an appropriate choice?
+
+
+[10/26/2022 03:03] 0xmt
+Yes exactly, every feed should be USD denominated.
+
+{Reactions}
+👍 
+
+[10/26/2022 03:34] birdy0219
+Great timezone @0xMT ☕
+
+{Reactions}
+❤️ 
+
+[10/26/2022 04:09] chaduke3730
+reading Market.sol, the code is neat
+
+{Reactions}
+🙏 (5) 
+
+[10/26/2022 05:31] gss1
+In Oracle.sol, uint8 decimals = 36 - feedDecimals - tokenDecimals;  what means?
+
+
+[10/26/2022 05:45] nourharidy
+Converts any Chainlink COIN:USD feed to an 18-decimal USD price
+
+
+[10/26/2022 05:46] nourharidy
+Try the math out with ETH, USDC and WBTC as different examples
+
+
+[10/26/2022 06:12] gss1
+Thanks
+
+
+[10/26/2022 06:36] KingNFT#8007
+Hey, where can i find  specific values of these protocol parameters:
+
+
+[10/26/2022 06:36] KingNFT#8007
+uint public collateralFactorBps;
+    uint public replenishmentIncentiveBps;
+    uint public liquidationIncentiveBps;
+    uint public liquidationFeeBps;
+
+
+[10/26/2022 06:39] KingNFT#8007
+Knowing this may help us to dive a little deeper
+
+
+[10/26/2022 07:20] .mathieu
+these variables will never exceed 10000 as value
+
+{Reactions}
+👍 
+
+[10/26/2022 07:29] 0xmt
+The final numbers for these parameters have not been decided, and may be different from market to market, but assuming something like:
+CollateralFactorBps = 8000 //80%
+ReplenishmentIncentiveBps = 500 //5%
+liquidationIncentiveBps = 1000 //10%
+liquidationFee = 500 //5%
+Would make for a realistic example.
+
+{Reactions}
+👏 
+
+[10/26/2022 07:45] ch_301
+Can I have an explanation of what `predictEscrow()` is doing on `Market.sol` 🤔
+
+{Reactions}
+➕ 
+
+[10/26/2022 08:01] 0xmt
+Escrows are deployed to deterministic addresses that are unique to the (address user, address market) pair. The  `predictEscrow()` function uses this to calculate the address of an escrow rather than look it up in a map, saving some gas costs.
+
+{Reactions}
+thankyou 
+
+[10/26/2022 08:59] 0x1f8b
+There are no defined scope in the readme, I suppose that the test and lib folder is not included, could you confirm the scope?
+
+
+[10/26/2022 09:13] 0xmt
+Yes, the scope is limited to non-test contracts in the `src` folder
+
+{Reactions}
+thankyou 
+
+[10/26/2022 14:54] .nalus
+Hey, which token are you planning on using as collateral?
+
+
+[10/26/2022 14:55] 0xmt
+Likely WETH, but the Market should ideally function with any ERC20 token that doesn't have non-standard behaviour and a reliable price feed.
+
+{Reactions}
+👍 (2) 
+
+[10/26/2022 15:04] .nalus
+nvm found the answer above 😄
+
+
+[10/26/2022 15:20] chaduke3730
+gm friend, where is dola.sol (Idola.sol)?
+
+
+[10/26/2022 15:32] exd0tpy
+@0xMT Sent DM!
+
+
+[10/26/2022 15:36] .nalus
+Can I get some more insight into what minimumCollateral is support to be?
+
+
+[10/26/2022 15:48] 0xmt
+The minimum amount of collateral tokens needed to support the user's debt.
+
+
+[10/26/2022 15:53] 0xmt
+https://etherscan.io/token/0x865377367054516e17014ccded1e7d814edc9ce4#code
+
+DOLA is a pretty standard ERC20, except it has a map of minters which are contracts that are allowed to put new DOLA into circulation.
+
+{Embed}
+https://etherscan.io/token/0x865377367054516e17014ccded1e7d814edc9ce4
+Dola USD Stablecoin (DOLA) Token Tracker | Etherscan
+Dola USD Stablecoin (DOLA) Token Tracker on Etherscan shows the price of the Token $1.00, total supply 41,304,561.408931012074501778, number of holders 658 and updated information of the token. The token tracker page also shows the analytics and historical data.
+
+
+[10/26/2022 15:55] chaduke3730
+@0xMTThanks got it
+
+{Reactions}
+👍 
+
+[10/26/2022 16:02] 0xmt
+I'll be signing off for tonight, but I urge you to contact my colleagues @Nour or @yellowtail if you need timely assistance. Else I'll try to answer your questions tomorrow 🌅
+
+{Reactions}
+wha thankyou 
+
+[10/26/2022 16:29] chaduke3730
+https://github.com/code-423n4/2022-10-inverse/blob/3e81f0f5908ea99b36e6ab72f13488bbfe622183/src/Market.sol#L246-L249
+
+
+[10/26/2022 16:30] chaduke3730
+where are IEscrow and Escrow.sol? I only see INVEscow
+
+
+[10/26/2022 16:31] chaduke3730
+SimpleERC20Esrow.sol
+
+
+[10/26/2022 16:33] .mathieu
+it is defined at the top of the Market contract
+
+
+[10/26/2022 17:13] chaduke3730
+thanks, that's the interface. which implementoins should I look at?
+
+
+[10/26/2022 17:13] chaduke3730
+@Mathieu
+
+
+[10/26/2022 17:22] adriro
+the 3 contracts under the escrows directory
+
+
+[10/26/2022 17:23] adriro
+any dev available for a quick question?
+
+
+[10/26/2022 17:23] chaduke3730
+ok, thanks
+
+
+[10/26/2022 17:57] edo4889
+@Nour or @yellowtail
+
+
+[10/26/2022 18:07] Franfran#5067
+where can we find the `delegate` function that is called under the `IERC20` interface ?
+
+{Reactions}
+👍 
+
+[10/26/2022 18:12] pedr02b2
+on the same trail cant seem to find it either
+
+
+[10/26/2022 18:12] pedr02b2
+that and delegates for delegator
+
+
+[10/26/2022 19:00] pedroais
+Any extra reading material on what's DBR and why does it exist ?
+
+
+[10/26/2022 19:00] pedroais
+If you have collateral why do you need a borrowing rights token ?
+
+
+[10/26/2022 19:17] Franfran#5067
+There is an introduction to DBR in the README if you haven't seen it FYI
+
+
+[10/26/2022 19:19] pedroais
+Yes I saw that but it doesn't explain why it's needed. Maybe it's obvious and I'm dumb
+
+
+[10/26/2022 19:25] acegawd
+@Nour Dm
+
+
+[10/26/2022 19:45] yellowtail#9857
+`delegate` is meant to be a standard governance token delegate function, something like this.
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/Screen_Shot_2022-10-26_at_12.42.08_PM-6B978.png
+
+{Reactions}
+thankyou (3) 🔥 (2) 
+
+[10/26/2022 20:01] Franfran#5067
+ty boss
+
+
+[10/26/2022 20:04] jtjabba
+It allows you to trade the right to borrow, so you could take a fixed interest loan or get exposure to interest rates going up and down.
+
+
+[10/26/2022 20:05] pedroais
+Got you
+
+
+[10/26/2022 20:05] pedroais
+That makes sense
+
+
+[10/26/2022 20:14] Franfran#5067
+interesting project
+
+
+[10/26/2022 20:35] trustminimised
+@yellowtail What type of contract is the governance address used in `Fed.sol`? Is that contract involved in the deployment of `Fed.sol`?
+
+
+[10/26/2022 21:01] chaduke3730
+what about _moveDelegates()?
+
+
+[10/26/2022 21:18] yellowtail#9857
+our governance contract here: https://etherscan.io/address/0xbeccb6bb0aa4ab551966a7e4b97cec74bb359bf6
+
+{Reactions}
+🔥 (2) 
+
+[10/26/2022 21:20] rotcivegaf
+@yellowtail I sent you a question
+
+{Reactions}
+👍 
+
+[10/26/2022 21:21] yellowtail#9857
+You can see a full example of a `delegate()` implementation here: https://github.com/InverseFinance/inverse-protocol/blob/main/contracts/token/INV.sol#L266
+
+{Reactions}
+🔥 thankyou 
+
+[10/26/2022 21:22] trustminimised
+Thank you
+
+
+[10/26/2022 21:37] ladboy233
+I just want to better understand the system.
+
+
+[10/26/2022 21:37] ladboy233
+As time progresses, DBR will be burnt from the borrower's wallet at a rate that depends on their debt
+
+
+[10/26/2022 21:37] ladboy233
+What does this mean?
+
+
+[10/26/2022 21:38] ladboy233
+User  who own DBR can borrow DOLA?
+
+
+[10/26/2022 21:39] ladboy233
+The Fed attached to FiRM protocol markets lend DOLA to the markets by expanding supply, and contracts supply by recalling dola from the markets.
+
+
+[10/26/2022 21:39] ladboy233
+Srry I have trouble understanding this as well.
+
+
+[10/26/2022 21:39] ladboy233
+How does the contract expanding and contraction-ing?
+
+
+[10/26/2022 21:39] ladboy233
+Thanks!
+
+
+[10/26/2022 21:40] ladboy233
+What does the burning mean in the context of the debt 🙂
+
+
+[10/26/2022 21:40] pedr02b2
+i assumed it meant there is a rate/time calculation somewhere
+
+
+[10/26/2022 21:41] pedr02b2
+as in it can burn decimals of the token to negative as well if im readin this right
+
+
+[10/26/2022 21:41] pedr02b2
+cant seem to see where the math is for this though or how its worked out
+
+
+[10/26/2022 21:41] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/unknown-0B33D.png
+
+
+[10/26/2022 21:41] yellowtail#9857
+https://github.com/InverseFinance/FiRM-code4rena/blob/main/src/DBR.sol#L284
+
+{Embed}
+https://github.com/InverseFinance/FiRM-code4rena/blob/main/src/DBR.sol
+FiRM-code4rena/DBR.sol at main · InverseFinance/FiRM-code4rena
+Public repository for code4arena contest. Contribute to InverseFinance/FiRM-code4rena development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/FiRM-code4rena-EEAF7
+
+{Reactions}
+thankyou 🔥 (2) 
+
+[10/26/2022 21:42] yellowtail#9857
+this is the function with the DBR burn calculation. it costs 1 DBR to borrow 1 DOLA for 1 year
+
+
+[10/26/2022 21:42] pedr02b2
+ah its literally deviding the debt over 365
+
+
+[10/26/2022 21:43] ladboy233
+Thanks.
+
+
+[10/26/2022 21:43] ladboy233
+Is this diagram means that the user can deposit ETHin escrow contract, then borrow or repay via market contract.
+
+
+[10/26/2022 21:44] ladboy233
+market contract interact with Price oracle, borrow controller and DOLA fee.
+
+
+[10/26/2022 21:44] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/unknown-5B9AB.png
+
+
+[10/26/2022 21:44] ladboy233
+how does this branch fit in? 🙂
+
+
+[10/26/2022 21:48] yellowtail#9857
+Yes, but the diagram is a bit misleading there. deposits into the escrow will mostly be done through the `deposit()` function on the Market.sol contract, but it is possible to send collateral to an escrow directly.
+
+
+[10/26/2022 21:49] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/unknown-97210.png
+
+
+[10/26/2022 21:50] ladboy233
+What does burning means in the context of debt?
+
+
+[10/26/2022 21:50] ladboy233
+is burning means that user reduce debt?
+
+
+[10/26/2022 21:50] ladboy233
+or user is obligated to pay more debt.
+
+
+[10/26/2022 21:50] acegawd
+DM @yellowtail
+
+{Reactions}
+👍 
+
+[10/26/2022 21:51] ladboy233
+ok sure.
+
+
+[10/26/2022 21:52] yellowtail#9857
+https://github.com/InverseFinance/FiRM-code4rena/blob/main/src/DBR.sol#L284
+
+this is the DBR burn rate function. this is called whenever a user interacts with most functions in Market.sol. it means burning the user's DBR tokens based on how much DOLA they have borrowed from Markets and how much time has passed. `debt` is the total amount of DOLA debt the address has across all markets
+
+{Reactions}
+👍 
+
+[10/26/2022 21:54] ladboy233
+Thanks
+
+{Reactions}
+🤝 (2) 
+
+[10/26/2022 22:22] chaduke3730
+Just try to get the whole picture. What is the purpose of DBR? If I already put my WETH into the escrow as collatoral, the lender should not be worried. Why is holding DBR still necessary?
+
+
+[10/26/2022 22:30] cryptphi
+Is the chair an EOA or a contract? If a contract, please share a link for reference.... many thanks.
+
+
+[10/26/2022 22:35] yellowtail#9857
+it can be thought of like an interest rate. 1 DBR lets you borrow 1 DOLA for 1 year. So if 1 DBR costs 0.01 DOLA, the annual interest rate is 0.01/1, or 1%.
+
+{Reactions}
+👍 
+
+[10/26/2022 22:37] yellowtail#9857
+it's going to be a multisig
+
+
+[10/26/2022 22:44] cryptphi
+cool, thanks
+
+{Reactions}
+🤝 
+
+[10/27/2022 00:29] 0xmt
+To expand on this point, this is what allows the system to be fixed rate, as a user can buy enough DBR to cover their expected loan period at a price that is known to them. For example, if you know you want to borrow 10,000 DOLA for 2 years, you can buy 20,000 DBR right now, to lock in your interest rate.
+
+
+[10/27/2022 01:05] chaduke3730
+@yellowtailI see, so one needs to have both escrow (to deal with default) and DBR (to pay interests)
+
+
+[10/27/2022 01:10] chaduke3730
+One more question:  who will be the lender of a market? Is it always the fed contract?
+
+
+[10/27/2022 01:14] neko_nyaa
+Hard to not read it as "the fed" contract
+
+
+[10/27/2022 01:31] 0xmt
+https://tenor.com/view/yellen-janet-printing-money-br-brr-brrr-brrrr-brrrrr-gif-20049699
+
+{Embed}
+https://tenor.com/view/yellen-janet-printing-money-br-brr-brrr-brrrr-brrrrr-gif-20049699
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/yellen-janet-printing-money-br-brr-brrr-br-54D03.png
+
+
+[10/27/2022 01:31] 0xmt
+It will always be a DOLA fed, yes 😄
+
+
+[10/27/2022 01:37] chaduke3730
+thanks.
+
+
+[10/27/2022 01:38] chaduke3730
+@0xMT
+
+
+[10/27/2022 01:39] chaduke3730
+What is the idea of multiple markets?  I understand interest rate is the same (controlled by the price of DBR, which is controlled by the real market), for different collateral tokens?
+
+
+[10/27/2022 01:42] 0xmt
+Primarily it's to allow for:
+1. Being able to set different parameters for different markets (CF, liquidation incentives etc.)
+2. Being able to use different escrows for different markets.
+Of course, something similar can be accomplished in a multi-market contract, but we think this is a neater separation and saves some mapping look-ups.
+
+
+[10/27/2022 01:46] chaduke3730
+That makes sense (different policies for different markets) Thanks. I agree. Such separation of concern is a good principle -it is just a lot of escrow bytecode will be duplicated - imagine escrow bytecode needs to be upgraded one day
+
+
+[10/27/2022 01:51] 0xmt
+The great thing about minimal proxies is that each deployment of an escrow takes up a very small amount of bytecode, and just uses a reference implementation.  I agree that it may require a lot of redeployed escrows if an upgrade needs to be made to a market or escrow contract, but I believe it can be done fairly seamlessly by simply halting the supply of new DOLA to the deprecated market, and recalling what's left in it, before deploying the upgraded contracts.
+The deprecated market would then slowly fall out of use, as borrowers eventually repay their debt. In that way we get to have limited upgradeability, without using a dangerous/sketchy upgradeable proxy pattern.
+
+
+[10/27/2022 01:55] chaduke3730
+Agree. The proxy pattern should be avoided when possible
+
+
+[10/27/2022 01:58] chaduke3730
+@0xMTCan you share how much gas is needed to deploy one escrow contract right now?
+
+
+[10/27/2022 01:59] 0xmt
+Should be about 65k gas
+
+
+[10/27/2022 01:59] chaduke3730
+Thanks for sharing
+
+
+[10/27/2022 02:03] 0xmt
+Might actually be quite a bit cheaper. Worst case gas cost for depositing is 123215 gas, which includes deploying an escrow + token transfers.
+
+
+[10/27/2022 02:03] chaduke3730
+I see.. thanks
+
+
+[10/27/2022 04:13] carlitox477
+So, someone pays for the right to take a loan for 1 DOLA by giving 1 DBR, the price someone pays this DBR is the interest. In some way, is it like paying the interest in advance?
+
+
+[10/27/2022 04:15] 0xmt
+Yep! Though assuming liquid DBR markets, a loan may be terminated before the borrower run out of DBR, and the remaining DBR can be sold to recoup some interest cost (may even make a profit if interest rates / DBR price have risen).
+
+{Reactions}
+👍 
+
+[10/27/2022 07:09] 0xsorrynotsorry
+Hey @0xMT , can you elaborate more on the markets? Who/what is eligible to be a market? is it only the contracts that Inverse Finance mints DOLA to?
+
+
+[10/27/2022 07:17] 0xmt
+Exactly, ultimately a market won't be worth anything unless there's a lender to fund it, and in the FiRM protocol Inverse is the only lender.
+
+
+[10/27/2022 08:50] 0xsorrynotsorry
+So what is the criteria to whitelist a market in the FiRM? Let's say a new built defi space lists DOLA, would it be eligible to be minted more to?
+
+
+[10/27/2022 09:09] 0xmt
+Would definitely need a thorough review. Right now the plan is for Inverse to be the sole deployer of new markets.
+
+
+[10/27/2022 09:37] ch_301
+@0xMT What is the supposed value of `callOnDepositCallback` ? and what are the differences between `true` & `false`?
+
+
+[10/27/2022 09:40] 0xmt
+A boolean indicating whether or not the Market should call the `onDeposit()` function in the Escrow when depositing. True is yes, false is no.
+
+
+[10/27/2022 09:44] ch_301
+so in case `callOnDepositCallback == false` the `INV` will not be converted into `xINV` tokens!!
+
+
+[10/27/2022 09:44] 0xmt
+Yep, exactly.
+
+{Reactions}
+thankyou 
+
+[10/27/2022 09:46] 0xsorrynotsorry
+thank you for the clarification.
+
+
+[10/27/2022 10:28] koolexc
+Could you please give an example on this?
+> If a borrower's credit limit falls below the value of their outstanding debt, a percentage of their collateral may be liquidated on behalf of the protocol
+
+
+[10/27/2022 10:32] nourharidy
+This is the voting contract. The gov address in the codebase refers to the treasury which owns and controls all of the DAO’s assets and contracts https://etherscan.io/address/0x926df14a23be491164dcf93f4c468a50ef659d5b
+
+{Embed}
+https://etherscan.io/address/0x926df14a23be491164dcf93f4c468a50ef659d5b
+Inverse Finance: Anchor Treasury | Address 0x926df14a23be491164dcf9...
+The Contract Address 0x926df14a23be491164dcf93f4c468a50ef659d5b page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on Etherscan.
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/etherscan-logo-circle-A29B1.jpg
+
+
+[10/27/2022 10:40] nourharidy
+If you’re borrowing $1k dola using ETH as collateral. ETH price is $1k. Collateral factor is 50%. If you have less than 2 ETH as collateral you will be liquidated
+
+
+[10/27/2022 11:01] 0xmt
+To add to what Nour said, the `liquidationFactorBps` sets how much of a user's position can be liquidated in a single liquidation, which is set to 50% by default.
+
+
+[10/27/2022 11:02] koolexc
+Thank you  @Nour @0xMT !
+
+
+[10/27/2022 11:04] c7e7eff
+So both `liquidationFactorBps` and `collateralFactorBps` would be 50% with current estimates ? Would it be possible to give probable ranges, cause they won't ever be close to 0% or close to 100% I presume.
+
+
+[10/27/2022 11:10] 0xmt
+`collateralFactorBps` is complicated to set, and depends on the volatility and liquidity of the underlying ERC20. `LiquidationFactorBps` should be as low as possible, as long as it remains feasible to liquidate the vast majority of positions.
+For a WETH market,  `collateralFactorBps = 8000` and `liquidationFactorBps = 5000` would be a reasonable assumption. Over all, `collateralFactorBps` is unlikely to exceed 90% for assets that aren't heavily correlated with DOLA, and `liquidationFactorBps` should be 50% in the vast majority of markets, unless there's a very good reason to change it.
+
+
+[10/27/2022 11:11] 0xmt
+As for lower bounds on `collateralFactorBps`, it's hard to tell, but it likely won't be set below 20%, as there wouldn't be much point in being a borrower for something paltry like that.
+
+{Reactions}
+👍 
+
+[10/27/2022 11:49] nourharidy
+It can be definitely lowered to 0 in a case where we want to discontinue or eliminate risk on this market
+
+
+[10/27/2022 14:36] elku.cryptos
+hi. I am trying to understand the `forceReplenish` function. It says, "user being forced to replenish DBR". But I see that only internal variables are incremented and no actual tokens are transferred from user. The user might not know he was `forced` to replenish. Is that right understanding? 
+
+Is this an idea similar to liquidation?
+
+
+[10/27/2022 14:46] koolexc
+What's the credit limit in the context of borrowing ? and how is it set ?
+
+
+[10/27/2022 14:49] ladboy233
+Gm
+
+
+[10/27/2022 14:49] ladboy233
+What is xINV xINV?
+
+
+[10/27/2022 14:49] ladboy233
+For INVEscrow.sol (SLOCs: 56)
+
+
+[10/27/2022 14:49] ladboy233
+Thanks
+
+
+[10/27/2022 14:57] 0xmt
+It's similar to liquidations, but happens when a user runs out of DBR. Instead of being immediately liquidated, the user is forced to buy DBR from the protocol at a high price.
+
+
+[10/27/2022 15:01] 0xmt
+credit limit is simply calculated as `collateralValue * collateralFactor / 10000`, meaning it's the maximum amount of DOLA a user can borrow.
+
+
+[10/27/2022 15:02] 0xmt
+xINV is staked INV
+
+
+[10/27/2022 15:02] 0xmt
+Where INV is the governance token of Inverse Finance
+
+
+[10/27/2022 15:04] chaduke3730
+@0xMTFollwoing your example of having 2 WETH with $1K/weth ,  collateralFactorBps = 8000 and liquidationFactorBps = 5000, ho much dola can I borrow? When will I get liquidated?
+
+
+[10/27/2022 15:05] 0xmt
+Depends on the lowest prices logged in the oracle in the past two days and the current price of WETH, but likely somewhere around 80% the value of your collateral.
+
+
+[10/27/2022 15:06] koolexc
+Thanks. meaning that, it would be different for each user as the collateralValue would be different
+
+
+[10/27/2022 15:06] 0xmt
+Yes exactly, unless the users somehow managed to deposit the exact same amount of collateral, ofc 😄
+
+{Reactions}
+😆 
+
+[10/27/2022 15:07] chaduke3730
+@0xMTso that means I can borrow up to 1600 of Dola.
+
+
+[10/27/2022 15:08] 0xmt
+Yep, exactly
+
+
+[10/27/2022 15:08] chaduke3730
+but with 5000 liquidationFactorBps, will I get liquidated immediately?
+
+
+[10/27/2022 15:10] chaduke3730
+I feel collactoralFactorsBPs must be small than liquidationFActorsBps
+
+
+[10/27/2022 15:11] 0xmt
+LiquidationFactor sets the maximum amount of your collateral that can be liquidated, so 1000$ worth of WETH in this case
+
+
+[10/27/2022 15:11] 0xmt
+But that's only if you fall below your credit limit
+
+
+[10/27/2022 15:11] chaduke3730
+I see. thanks
+
+
+[10/27/2022 15:15] chaduke3730
+In my exmaple, I can borrow up to 1600 dola, but if weth prices drop a bit, 50% of my collatoral will be liquidated
+
+
+[10/27/2022 15:20] 0xmt
+Yep, that's right.
+
+
+[10/27/2022 15:21] koolexc
+When is it the case that a borrower has a DBR deficit ?
+
+
+[10/27/2022 15:21] koolexc
+I was reading this comment 
+> Querying debts[user] and using it for amount to be repaid will always result in full repayment, unless the user has a DBR deficit
+
+
+[10/27/2022 15:22] 0xmt
+Having unpaid debt continuously burns DBR from a user. If a user falls below 0, they will start incurring a DBR deficit.
+
+{Reactions}
+👍🏻 
+
+[10/27/2022 15:23] nourharidy
+1600 DOLAs
+
+
+[10/27/2022 15:24] 0xmt
+DBR deficits can be force replenished, which is an action similar to liquidations, where a borrower is forced to take on more DOLA debt to pay for DBR minted to them to make up for their deficit.
+
+{Reactions}
+👍🏻 
+
+[10/27/2022 15:25] nourharidy
+I would say that it is only similar to liquidations in the sense that it is a punitive action that is not normally desirable by the user
+
+{Reactions}
+👍🏻 💯 
+
+[10/27/2022 15:25] koolexc
+Thank you guys. very helpful
+
+{Reactions}
+💯 
+
+[10/27/2022 15:26] 0xsorrynotsorry
+I'm asking out of curiosity. is it to give a second chance to the users?
+
+
+[10/27/2022 15:26] elku.cryptos
+and as the debt increases his collateral value decreases, which eventually makes his debt eligible for liquidation?
+
+
+[10/27/2022 15:27] 0xmt
+Yeah, it's an alternative to just liquidating the user outright, but the additionally incurred debt may cause a liquidation in the future, if the user don't take care of their debt in some way.
+
+{Reactions}
+thankyou chefskiss (2) 
+
+[10/27/2022 15:28] nourharidy
+forceReplenishment is meant as a deterrent. Otherwise there would be no reason to buy DBR/pay interest. In the original implementation, DBR deficit caused the user’s collateral to be liquidatable. Force replenishment was introduced as a softer alternative
+
+
+[10/27/2022 15:28] 0xmt
+Anyways, I'll pass the baton to my colleagues @Nour and @yellowtail and get some sleep, GN wardens! 🐺 💤
+
+{Reactions}
+👍 (3) thankyou (3) 🌃 (3) 
+
+[10/27/2022 15:29] 0xsorrynotsorry
+So clever 👏🔥
+
+{Reactions}
+pepe_love (3) 
+
+[10/27/2022 15:29] elku.cryptos
+that really works out in such a nice way.
+
+{Reactions}
+pepe_love 💯 
+
+[10/27/2022 15:29] nourharidy
+Sleep well ser. Happy to answer any questions all night long
+
+
+[10/27/2022 15:31] chaduke3730
+thanks
+
+
+[10/27/2022 15:31] chaduke3730
+sleep well, so anybody can call the liquidate?
+
+{Reactions}
+👍 
+
+[10/27/2022 15:31] chaduke3730
+and get reward?
+
+
+[10/27/2022 15:31] nourharidy
+Yup
+
+
+[10/27/2022 15:31] 0xsorrynotsorry
+imho, this contest should be longer than it's scheduled. i mean the project's approach is way different than the main stream.
+
+{Reactions}
+👍 (2) 
+
+[10/27/2022 15:32] nourharidy
+I think so yeah. Will talk to the team about it
+
+{Reactions}
+C4Keycap (3) 
+
+[10/27/2022 15:36] d3e4
+Hi @Nour, I sent you a DM.
+
+{Reactions}
+👍 
+
+[10/27/2022 16:07] chaduke3730
+what is idea of dampenedPrice? (in Oracle.viewPrice())
+
+{Reactions}
+👆 
+
+[10/27/2022 16:07] chaduke3730
+?
+
+
+[10/27/2022 16:18] Franfran#5067
+I believe is to avoid relying too much on a today price that has dumped by way too much, putting underwater the loan of a lot of people
+
+
+[10/27/2022 16:23] chaduke3730
+It appears dampendPrice is a price presumably between twodaysLows and normalized price.
+
+{Reactions}
+👍 (2) 
+
+[10/27/2022 16:23] chaduke3730
+a tradeoff price.
+
+
+[10/27/2022 22:44] aviggiano
+hey
+what contracts will be allowlisted by `BorrowController` ?
+
+
+[10/28/2022 00:23] _oceansky
+definitely different, they live on the description "rethink the way you borrow"  😂
+
+{Reactions}
+👆 chefskiss 
+
+[10/28/2022 00:31] chaduke3730
+@Ocean_Skyhey bro, I was looking for your name at the new award list (quickswap)
+
+
+[10/28/2022 00:41] _oceansky
+Hey bro, how ur doin? Did you find my name? haha , goodluck to find bug in this project inverse, even small but with quality finding can count, hopefully not included in @Picodes | Angle list 😂  beware of that.
+
+
+[10/28/2022 00:49] chaduke3730
+@Ocean_SkyYes, I found it, "$52.04 USDC » @sudotxean_Sky ", good job, bro.
+
+
+[10/28/2022 00:50] chaduke3730
+Curious how much you might earn in sep alone
+
+
+[10/28/2022 00:50] chaduke3730
+Yes, I will start on Inverse soon
+
+
+[10/28/2022 00:50] chaduke3730
+Waht is that Angle list?
+
+
+[10/28/2022 00:52] _oceansky
+https://discord.com/channels/810916927919620096/1034129127806091304/1034558351998210159
+
+
+[10/28/2022 00:54] _oceansky
+Here's the list, your submitted report should not include any items on the list or else you are ineligible for rewards.
+
+
+[10/28/2022 00:59] chaduke3730
+Thanks. I won't list those
+
+{Reactions}
+C4Keycap 
+
+[10/28/2022 01:10] _oceansky
+I expected also you read the docs of Code4rena? https://docs.code4rena.com/awarding/judging-criteria
+Just want to share an incident where's there were some newbie wardens unable to follow the rules of submission for QA and Gas reports and becomes ineligible for rewards. The case is he submitted multiple QA or Gas reports which should be only compiled into single one report. He wasted an entire month of report findings as a result of that.
+
+{Embed}
+https://docs.code4rena.com/awarding/judging-criteria
+Judging criteria
+
+
+[10/28/2022 01:43] chaduke3730
+Got that too. thanks I always submitted one report for gas and one report for AQ
+
+{Reactions}
+C4Keycap 
+
+[10/28/2022 02:19] 0xmt
+To begin with, it's likely to only be a few helper contracts, but eventually anyone who apply to Inverse and have their contracts reviewed will be able to have them whitelisted.
+
+
+[10/28/2022 02:20] 0xmt
+It sets an upper bound for how much the price can be manipulated, based on the twoDayLow, should there be a manipulateable pricefeed
+
+
+[10/28/2022 03:14] chaduke3730
+@0xMTThanks I will share some insights in my report on this
+
+{Reactions}
+👍 
+
+[10/28/2022 03:14] chaduke3730
+Hope it is useufl
+
+
+[10/28/2022 03:15] chaduke3730
+Can you guys see the submissions now or only after the contest close?
+
+
+[10/28/2022 03:16] 0xmt
+Only after the contest close 🙈
+
+
+[10/28/2022 03:16] chaduke3730
+@0xMTThat makes sense, to keep the game fair
+
+
+[10/28/2022 03:17] chaduke3730
+@0xMTFeel free to dm me if there is any question in my reports
+
+
+[10/28/2022 03:18] 0xmt
+Absolutely!
+
+
+[10/28/2022 03:18] chaduke3730
+Love this project, hope it will succeed tremendously
+
+{Reactions}
+🤞 ♥️ (3) 
+
+[10/28/2022 03:19] chaduke3730
+Particularly the creative way to pay/lock/speculate on interest rate.
+
+
+[10/28/2022 03:20] 0xmt
+We're definitely hoping that we'll see a bit of a speculative market form around interest rates, but initially we just want to get to a decent amount of TVL 😄
+
+
+[10/28/2022 03:20] chaduke3730
+Save the trouble to arbitrate interests rate
+
+
+[10/28/2022 03:21] chaduke3730
+yes TVL is important to sustain the project
+
+
+[10/28/2022 04:12] _oceansky
+Nice bro!, it seems you already found a vulnerability
+
+
+[10/28/2022 04:43] chaduke3730
+@Ocean_SkyYup, I am still learning...after you bro
+
+
+[10/28/2022 04:44] chaduke3730
+thanks for your encouragement
+
+
+[10/28/2022 08:16] 0xdanielh
+I see three kinds of Escrow. Is every markets escrow will be SimpleERC20Escrow except for govToken and inv token?
+
+
+[10/28/2022 08:23] nourharidy
+There can be other escrow contracts in the future
+
+
+[10/28/2022 08:23] nourharidy
+Depending on needed functionality
+
+
+[10/28/2022 08:23] ch_301
+@Nour  Where I can find the `xINV` contract?
+
+
+[10/28/2022 08:25] nourharidy
+https://etherscan.io/address/0x1637e4e9941D55703a7A5E7807d6aDA3f7DCD61B
+
+{Embed}
+https://etherscan.io/address/0x1637e4e9941D55703a7A5E7807d6aDA3f7DCD61B
+XINV | Address 0x1637e4e9941D55703a7A5E7807d6aDA3f7DCD61B | Etherscan
+The Contract Address 0x1637e4e9941D55703a7A5E7807d6aDA3f7DCD61B page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on Etherscan.
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/etherscan-logo-circle-A29B1.jpg
+
+{Reactions}
+thankyou 
+
+[10/28/2022 08:43] birdy0219
+Solid work @0xMT and team almost inspired me to get back to looking to solidity dev work
+
+{Reactions}
+🙏 
+
+[10/28/2022 08:44] 0xmt
+@Nour is an OG and responsible for the design and most of the code.
+
+
+[10/28/2022 08:45] birdy0219
+:kongchest:
+
+
+[10/28/2022 08:55] _oceansky
+i wonder if this project already gone with audit before c4 if so, is the audit report  available?
+
+
+[10/28/2022 09:00] 0xmt
+C4 is the first audit!
+
+{Reactions}
+4739_Skeletor (2) 
+
+[10/28/2022 09:33] Franfran#5067
+They are no bros online ?
+
+
+[10/28/2022 09:33] Franfran#5067
+missed them
+
+
+[10/28/2022 10:35] rustyrabbit
+Talking about parameters of the system, DBR decimals (18)  has been established and won't be changed for deployment right ?
+
+
+[10/28/2022 12:05] koolexc
+Who can I DM for a question?
+
+
+[10/28/2022 12:32] nourharidy
+Yes
+
+
+[10/28/2022 12:32] nourharidy
+DM me
+
+{Reactions}
+👍🏻 
+
+[10/28/2022 13:44] akshaysrivastav
+What could be an example value for `replenishmentPriceBps` variable of DBR.sol?
+
+{Reactions}
+🧐 
+
+[10/28/2022 13:46] 0xmt
+It would have to be high enough to be both punitive and reliably higher than the market price. 10000 would likely be a good example, which would be similar to a 100% APR
+
+
+[10/28/2022 13:46] 0xmt
+But it may be set higher, if it's considered necessary to keep loans healthy.
+
+
+[10/28/2022 14:28] nourharidy
+Probably gonna be 100000 for 1000% APR
+
+
+[10/28/2022 14:41] jm217
+@Nour sent a DM
+
+
+[10/28/2022 16:01] jm217
+What's the realistic value for `replenishmentPriceBps` ?
+
+
+[10/28/2022 16:05] jm217
+ah forget it, haha just read above
+
+
+[10/28/2022 16:23] koolexc
+What's the purpose of recall method in the Market contract?
+
+
+[10/28/2022 16:25] nourharidy
+For the lender (Fed.sol) to withdraw DOLAs previously deposited into the market contract
+
+
+[10/28/2022 16:26] nourharidy
+All DOLAs belonging to the Market balance are considered owned by the Fed
+
+
+[10/28/2022 16:26] koolexc
+👍🏻
+
+
+[10/28/2022 19:32] koolexc
+Who can I DM? @Nour seems to be offline
+
+
+[10/28/2022 20:38] 0xkarm
+@0xMT @yellowtail  anyone online ?
+
+
+[10/28/2022 21:55] yellowtail#9857
+You can DM me
+
+{Reactions}
+👍🏻 
+
+[10/28/2022 22:51] koolexc
+DMed
+
+
+[10/29/2022 01:08] adriro
+I think I get the whole picture, however I can't understand who will control the supply of DBR. 
+So let's say I deposit some collateral and take a loan, that will immediately start accruing debt in the DBR contract and get me in deficit, meaning I need to have some DBR. But DBR minting (or not privileged minting) is only possible through a forced replenishment. 
+Who will generate the market for DBR tokens? Will you mint tokens and setup an initial pool? 
+Also, who will burn them? there's a public unprotected burn function. Are there any incentives to burn DBR?
+
+
+[10/29/2022 05:25] c7e7eff
+FiRMTest.sol indicates governance will mint DBR. I suppose they will create a pool on one or multiple DEXes.
+
+{Reactions}
+👍 (3) 
+
+[10/29/2022 05:27] c7e7eff
+also "DBR liquidity and market making is outside the scope of this contest."
+
+
+[10/29/2022 09:19] wawrdog
+hey @Nour
+
+
+[10/29/2022 09:19] wawrdog
+nice work on the oracle setup, pretty cool idea re storing lows of the day
+
+{Reactions}
+pepe_love (2) 
+
+[10/29/2022 09:19] wawrdog
+enjoyed reading through that code
+
+{Reactions}
+💯 (5) 
+
+[10/29/2022 09:45] saksham#7993
+Whom can I DM for a question rn?
+
+
+[10/29/2022 12:41] minh___
+README: `DBR are minted and offered to the market by Inverse Finance`
+
+{Reactions}
+👍 (2) 
+
+[10/29/2022 12:42] 0xmt
+Market might be slightly misleading wording, as we don't mean the market.sol contract, but the market in general 😄
+
+{Reactions}
+✅ 
+
+[10/29/2022 12:58] 0xbtk
+@0xMT  What's chair mean in Fed.sol contract ?!!
+
+
+[10/29/2022 12:59] 0xmt
+The chair role is the address allowed to expand and contract DOLA through that specific fed contract.
+
+
+[10/29/2022 12:59] 0xmt
+Basically the guy operating the money printer.
+
+{Reactions}
+🤣 
+
+[10/29/2022 13:00] 0xmt
+It'll most likely be a multisig operated by Inverse Finance
+
+
+[10/29/2022 13:01] 0xbtk
+I see, thanks
+
+
+[10/29/2022 14:15] PaludoX0#9748
+@0xMT Could you help me understanding the difference between debts[user] and dueTokensAccrued[user] in DBR.sol?
+
+
+[10/29/2022 15:37] koolexc
+What is the DBR deficit that's beyond negligible dust amounts? trying to understand the extent of (negligible).
+
+
+[10/29/2022 15:50] 0xmt
+One is the user dola debt, the other is burned dbr
+
+
+[10/29/2022 15:52] 0xmt
+Anything that'd have a material impact on protocol earnings. It's hard to define in exact measures, but a few dollars worth are probably acceptable while, more starts to become harmful.
+
+{Reactions}
+👍🏻 
+
+[10/29/2022 16:43] koolexc
+What will be the decimals of DOLA? I see in the contract for testing, it is set to 18. Is it the same when going live?
+
+
+[10/29/2022 16:46] codingnamekiki
+DOLA is already existing stablecoin
+
+
+[10/29/2022 16:47] codingnamekiki
+https://etherscan.io/token/0x865377367054516e17014ccded1e7d814edc9ce4
+
+
+[10/29/2022 16:52] koolexc
+Ah okk. Thank you
+
+{Reactions}
+hi5 
+
+[10/29/2022 17:10] Noah3o6#2496
+can someone say me what in-scope is?
+
+
+[10/29/2022 17:14] codingnamekiki
+Everything in the src file, expect the test folder of course.
+
+
+[10/29/2022 17:15] Noah3o6#2496
+thanks
+
+{Reactions}
+hi5 
+
+[10/29/2022 17:42] koolexc
+A general question, when actually the Fed is supposed to receive profit?
+
+
+[10/29/2022 17:47] koolexc
+trying to understand the marketValue and how it can affect the Fed profit?
+
+
+[10/29/2022 17:48] koolexc
+@0xMT
+
+
+[10/29/2022 18:44] koolexc
+from what I understand the market value should be greater than the initial supply to get profit
+
+
+[10/29/2022 18:45] koolexc
+but how is this explained conceptually from business point of view?
+
+
+[10/29/2022 20:19] koolexc
+Anyone available ?
+
+
+[10/29/2022 20:39] edo4889
+@Nour @yellowtail
+
+
+[10/29/2022 21:29] 0xRobocop#3994
+Hi sers, how to manipulate timestamps on Foundry tests?
+
+
+[10/29/2022 21:32] horsefacts
+https://book.getfoundry.sh/cheatcodes/warp
+
+
+[10/29/2022 21:35] koolexc
+`vm.warp(block.timestamp + 1 days);`
+
+
+[10/29/2022 21:35] koolexc
+just an example for 1 day .. but you can change it to whatever
+
+
+[10/29/2022 21:44] 0xRobocop#3994
+thanks man
+
+
+[10/29/2022 22:04] saksham#7993
+Are the escrow contracts in scope?
+
+
+[10/29/2022 22:04] nourharidy
+Only in the case where someone is forceReplenished (see line 508 in Market.sol) and their dola debt is increased over the originally borrowed amount
+
+
+[10/29/2022 22:05] nourharidy
+Or if someone sends extra dolas to the market contract for some reason then it can be claimed as profit
+
+
+[10/29/2022 22:05] nourharidy
+It’s just to ensure any extra dolas are not burned during contractions and are collected by governance instead
+
+
+[10/29/2022 22:26] koolexc
+Sure
+
+
+[10/29/2022 22:26] koolexc
+Thank you
+
+
+[10/30/2022 08:35] d3e4
+Whom can I DM?
+
+
+[10/30/2022 09:04] 0xmt
+👋
+
+{Reactions}
+👍 
+
+[10/30/2022 12:46] edo4889
+Just over 7 hours left till our contest comes to a close! Wardens, be sure to ask any remaining questions and get your submissions in on time!
+
+{Reactions}
+👍 (6) 
+
+[10/30/2022 13:13] c7e7eff
+DM sent
+
+
+[10/30/2022 13:31] .sha256yan
+any staff dev online?
+
+
+[10/30/2022 13:51] .sha256yan
+@0xMT , @edo | Inverse can I dm one of you?
+
+
+[10/30/2022 13:52] 0xmt
+👋
+
+
+[10/30/2022 15:34] nourharidy
+I’ll be on duty if you guys have any final questions
+
+{Reactions}
+👍 (2) 
+
+[10/30/2022 15:58] 0xmt
+Leaving the stage to Nour, gn wardens!
+
+{Reactions}
+🖐️ (3) PU_peepoGoodnight 
+
+[10/30/2022 17:47] acegawd
+Dmed
+
+{Reactions}
+👍 
+
+[10/30/2022 18:05] 0xbepresent
+Thank you Inverse Team!. You have a nice project. I like how you introduce the DBR token idea. Hope my findings help you!.
+
+{Reactions}
+🤝 (3) 
+
+[10/30/2022 18:07] chaduke3730
+Good luck with this project
+
+{Reactions}
+🤝 (4) 
+
+[10/30/2022 18:26] Franfran#5067
+based project !
+
+
+[10/30/2022 19:29] edo4889
+Many thanks to all those who participated! We had a great time answering questions and are very much looking forward to the findings being disclosed.
+
+{Reactions}
+hi5 (6) 
+
+[10/30/2022 19:29] edo4889
+We’ll be back!
+
+
+[10/30/2022 19:35] c7e7eff
+Good code overal
+
+
+[10/30/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Inverse Finance** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+🚀 (18) 
+
+[10/30/2022 21:36] chaduke3730
+Good luck to all!
+
+
+[10/31/2022 01:39] 0xmt
+Thank you for participating wardens, it's been a pleasure!
+
+{Reactions}
+peepoCoffee (4) 
+
+[10/31/2022 02:38] elku.cryptos
+Thanks for answering our questions patiently. Well appreciated.
+
+{Reactions}
+💯 (3) 👌🏻 
+
+[10/31/2022 12:10] nourharidy
+Thank you all for your hard work, wardens. It’s been a pleasure chatting with you all!
+
+{Reactions}
+🙌 (4) 
+
+[10/31/2022 12:29] evmwanderer#0830
+Nice code and concept Ser all the best with the launch
+
+
+[10/31/2022 20:54] xyzbtchunt
+How many weeks will the prize be announced?
+
+
+[10/31/2022 21:14] Quisex#4394
+Month
+
+
+[11/01/2022 16:00] chukusu
+😊
+
+
+[11/02/2022 09:30] tyhoanip
+Hello
+
+
+[11/03/2022 16:13] edo4889
+We're discussing FiRM on Twitter Spaces right now. Feel free to pop in and say Hi! https://twitter.com/i/spaces/1yoKMZnVvYNGQ?s=20
+
+
+[11/30/2022 07:23] saksham#7993
+👀
+
+{Reactions}
+👀 
+
+[12/01/2022 06:30] xyzbtchunt
+Any update?
+
+
+[12/03/2022 13:10] ozy42
+wen
+
+{Reactions}
+💔 (4) 
+
+[12/03/2022 18:57] alextheentreprenerd
+Issue with Awarding Math code, once it's fixed it will make it faster for all future contests
+
+{Reactions}
+nice (5) 
+
+[12/04/2022 16:06] ozy42
+Okay, will there be an audit contest for the Awarding Math Code ?
+
+{Reactions}
+😆 (5) 
+
+[12/05/2022 07:09] saksham#7993
+👀
+
+{Reactions}
+👀 (3) 
+
+[12/05/2022 20:14] ozy42
+https://tenor.com/view/rebecca-jack-black-ill-be-waiting-half-stance-funny-gif-17917419
+
+{Embed}
+https://tenor.com/view/rebecca-jack-black-ill-be-waiting-half-stance-funny-gif-17917419
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/rebecca-jack-black-B9FDA.png
+
+{Reactions}
+👀 (2) 🙄 
+
+[12/07/2022 18:59] jm217
+:4739_Skeletor:
+
+
+[12/07/2022 19:08] anonnp
+https://github.com/code-423n4/code423n4.com/pull/5861/files
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/5861/files
+Add Inverse results by CloudEllie · Pull Request #5861 · code-423n4...
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/84729667-C9F7E
+
+{Reactions}
+👍 (2) 👀 
+
+[12/07/2022 19:35] ladboy233
+👀
+
+
+[12/07/2022 19:39] carlitox477
+First contest with 2 Mediums, even though one was found by 48 people 😂 😂 😂
+
+
+[12/07/2022 19:40] ladboy233
+😂
+
+
+[12/07/2022 19:40] carlitox477
+Also I was super close to find a unique. I learn a valuable lesson to take my time to write a good report
+
+{Reactions}
+💯 (3) 👍 (3) 🤑 (2) 
+
+[12/07/2022 19:43] carlitox477
+My best contest up to now too 😄
+
+
+[12/07/2022 19:46] carlitox477
+The lesson cost me 500-642 bucks. What I can say to anyone who is learning, put time in demonstrating how can you cause damage and how much.
+
+{Reactions}
+hi5 (5) 💪 (3) 
+
+[12/08/2022 00:12] jeiwan
+> Jeiwan,H-03,...,USDC,481.58
+> Jeiwan,G-15,...,USDC,520.34
+
+Achievement unlocked
+
+{Reactions}
+😂 (2) 
+
+[12/08/2022 00:24] ladboy233
+lol gas payout higher than high payout.
+
+
+[12/08/2022 00:47] xyzbtchunt
+Nothing reward🥲
+
+{Reactions}
+🥲 
+
+[12/08/2022 01:10] liveactionllamac4
+Hi there! Please don't discuss findings until the report has been made public. Thanks! 🙂
+
+
+[12/08/2022 01:18] xyzbtchunt
+when will the results of the public report be? we need transparency where did it go wrong report
+
+
+[12/08/2022 01:42] carlitox477
+@xyzbtchunt there is almost never an exact date, it maybe we'll be 1 month. However, if you've found 3 mediums/highs you can apply to become a certified warden, which will allow you to see the judging process and do you reclaim in the correct place. The process, at least from my pov, is transparent.
+
+
+[12/08/2022 01:43] carlitox477
+Believe me that if you put time and effort you can get 3 mediums/high in one month
+
+
+[12/08/2022 04:00] itsmetechjay
+🤑 🎉 Awards for **Inverse**, part 1:
+
+$4,809.58 USDC » @immeas 
+$3,638.23 USDC » @rbserver 
+$3,596.28 USDC » @Holmgren 
+$3,554.50 USDC » @Jeiwan 
+$3,554.11 USDC » @Ch_301 
+$3,456.08 USDC » @Roman 
+$3,434.97 USDC » @hansfriese 
+$3,422.45 USDC » @Ruhum 
+$3,397.85 USDC » @2997ms 
+$1,586.88 USDC » @RaoulSchaffranek 
+$1,548.42 USDC » @djxploit 
+$785.52 USDC » @trustminimised 
+$712.26 USDC » @carlitox477 
+$691.21 USDC » @0xSmartContract 
+$602.74 USDC » @rvierdiiev 
+$537.86 USDC » @0x1f8b 
+$506.82 USDC » @neumo 
+$485.39 USDC » @ElKu 
+$445.87 USDC » @jayphbee 
+$432.84 USDC » @d3e4 
+$432.45 USDC » @simon135 
+$418.21 USDC » @horsefacts 
+$417.83 USDC » @RaymondFam 
+$380.10 USDC » @pfapostol 
+$376.99 USDC » @catchup 
+$367.19 USDC » BClabs (@nalus, @Reptilia)
+$343.36 USDC » @cccz 
+$343.36 USDC » @0xladboy | Sparkware 
+$343.36 USDC » @minhtrng 
+$342.97 USDC » @corerouter 
+$329.12 USDC » @c3phas 
+$292.39 USDC » CloudX (@Migue, @pabliyo, @marce1993)
+$257.96 USDC » @gs8nrv 
+$241.66 USDC » @Kaden 
+$198.82 USDC » @idkwhatimdoing 
+$198.43 USDC » @yamapyblack 
+$156.27 USDC » @sam_cunningham 
+$156.27 USDC » @MiloTruck 
+$156.27 USDC » @0xRobocop 
+$156.27 USDC » @Picodes | Angle 
+$87.22 USDC » @adriro
+$70.75 USDC » @c7e7eff/RustyRabbit 
+$70.37 USDC » @cryptonue 
+$58.24 USDC » @codexploder 
+$58.24 USDC » @eierina 
+$58.24 USDC » @pashov 
+$56.13 USDC » @0xwhiteDevil 
+$56.13 USDC » @Rolezn 
+$56.13 USDC » @__141345__ 
+$56.13 USDC » @code-cipher 
+$55.74 USDC » @fatherOfBlocks 
+$55.74 USDC » @Dinesh11G 
+$55.74 USDC » @Bnke 
+$55.74 USDC » @Rahoz 
+$55.74 USDC » @Aphak5010 
+$55.74 USDC » @Diana 
+$55.74 USDC » @cryptostellar5 
+$55.74 USDC » @ch0bu 
+$55.74 USDC » @B2
+$55.74 USDC » @thinklab 
+$55.74 USDC » @sakshamguruji 
+$55.74 USDC » @shark 
+$55.74 USDC » @Deivitto 
+$55.74 USDC » @enckrish 
+$55.74 USDC » @gogo 
+$55.74 USDC » @robee 
+$55.74 USDC » @ReyAdmirado 
+$55.74 USDC » @tnevler 
+$55.74 USDC » @JC
+$37.12 USDC » @0xNazgul 
+$36.73 USDC » @chrisdior4 
+$36.73 USDC » @evmwanderer 
+$36.73 USDC » @pedr02b2 
+$36.73 USDC » @wagmi 
+$36.73 USDC » @Waze 
+$36.73 USDC » @lukris02 
+$36.73 USDC » @cducrest 
+$36.73 USDC » @Rotcivegaf 
+$36.73 USDC » @Josiah 
+$36.73 USDC » @delfin454000 
+$36.73 USDC » @brgltd 
+$36.73 USDC » @cylzxje 
+$34.02 USDC » @++Jujic#5558 
+$34.02 USDC » @peanuts 
+$34.02 USDC » @Pedroais 
+$33.63 USDC » @jwood 
+$33.63 USDC » @0xbepresent 
+$24.60 USDC » @8olidity 
+$24.60 USDC » @joestakey 
+$24.60 USDC » @Franfran 
+$24.60 USDC » @Chom 
+$24.60 USDC » @sorryNotsorry 
+$24.22 USDC » @cryptphi 
+$24.22 USDC » CertoraInc (@egjlmn1, @Ori Dabush, @shakedwinder, @RoiEvenHaim, @ItayG)
+
+
+[12/08/2022 04:11] carlitox477
+Are you sure these are the results of this contest?
+
+
+[12/08/2022 04:12] liveactionllamac4
+Please note the above post is in-progress. Please wait a few moments. 🙏
+
+
+[12/08/2022 04:13] KingNFT#8007
+None of my findings are included,  a bit curious?
+
+
+[12/08/2022 04:13] liveactionllamac4
+Working on getting all the right amounts and tags in the message above. Thanks for your patience!
+
+
+[12/08/2022 04:25] carlitox477
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/image0-D8E64.gif
+
+
+[12/08/2022 04:31] itsmetechjay
+🤑 🎉 Awards for **Inverse**, part 2:
+
+$19.39 USDC » @martin11 
+$19.01 USDC » @Mathieu 
+$19.01 USDC » @chaduke 
+$19.01 USDC » ballx
+$19.01 USDC » @ret2basic.eth 
+$19.01 USDC » @durianSausage 
+$19.01 USDC » @exolorkistis
+$19.01 USDC » @skyle 
+$19.01 USDC » @Ozy42
+$19.01 USDC » Shinchan (@Sm4rty, @Prasant Gupta, & @Rohan)
+$19.01 USDC » @HardlyCodeMan 
+$19.01 USDC » @chandr 
+$19.01 USDC » @karanctf 
+$19.01 USDC » @Amithuddar 
+$19.01 USDC » @0xRoxas 
+$19.01 USDC » @JrNet 
+$19.01 USDC » KoKo
+$19.01 USDC » @ajtra 
+$19.01 USDC » @sakman 
+$19.01 USDC » @mcwildy 
+$0.38 USDC » @rokinot 
+$0.38 USDC » M4TZ1P (@DekaiHako, @0xDanielH, @Zer0Luck, @AAIIWITF, @PENGUN) 
+$0.38 USDC » @cuteboiz 
+$0.38 USDC » @saneryee 
+$0.38 USDC » @WawrDog 
+$0.38 USDC » tonisives
+$0.38 USDC » elprofesor
+$0.38 USDC » @bin2chen 
+$0.38 USDC » @olivierdem 
+$0.38 USDC » @imare 
+$0.38 USDC » @0xc0ffEE 
+$0.38 USDC » @dipp 
+$0.38 USDC » @TomJ 
+
+🏁 Findings summary
+---------------------------
+Med risk findings: 120 total, 18 unique
+Gas findings: 55 
+QA findings: 54
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸 
+
+***Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.***
+
+
+[12/08/2022 04:38] itsmetechjay
+@KingNFT @carlitox477 @0xladboy | Sparkware these results should be correct now.  Apologies for my earlier copy/paste fail.
+
+
+[12/08/2022 04:42] ladboy233
+thank you
+
+{Reactions}
+hi5 
+
+[12/08/2022 04:57] carlitox477
+No worries, thanks for your work and time!
+
+{Reactions}
+hi5 
+
+[12/08/2022 05:50] a12jmx
+Hey @Jay | C4 in the github repo above I see my name twice which I don't understand because I only submitted one qa but even weirder is that my name is not included in the award mentions that just got mentioned. P.S. Not talking about the red in the github, with the red in mind my name shows up 4 times.
+
+
+[12/08/2022 06:00] jeiwan
+The PR linked above is from a different contest. This is the correct one: https://github.com/code-423n4/code423n4.com/pull/5873/files
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/5873/files
+Add Inverse to Leaderboard by liveactionllama · Pull Request #5873 ...
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/98446738-1A1F9
+
+
+[12/08/2022 06:10] a12jmx
+Cool. Might be an updated PR but it's not a different contest as it both states Inverse and there was no other Inverse ongoing from what I'm aware of or that I contributed. From what I could see if I divided the first mention in the repo by 2 I get the second mention albeit exactly 1.30 dollars more in the repo than what the math states and now it's somehow 100% disputed. In any case, I guess it is what it is.
+
+
+[12/08/2022 06:41] R2#8087
+Hi! 
+I participated in the contest too and I know I have accepted QA findings
+Is it the final results? Can't find myself there
+
+
+[12/08/2022 07:46] PaludoX0#9748
+Same for me. Maybe  Q&A submissions were fully discharged because of a wrong submission?
+
+
+[12/08/2022 09:57] immeas
+omg, my first, first place!
+
+{Reactions}
+🚀 (12) C4Keycap (6) 🏆 (9) hi5 (6) 🎉 (6) 
+
+[12/08/2022 09:57] immeas
+woohoo \o/
+
+{Reactions}
+👍 (3) 
+
+[12/08/2022 11:06] cloudellie
+Congratulations!!
+
+
+[12/08/2022 11:07] 0xmt
+Well done 👏
+
+
+[12/08/2022 11:33] R2#8087
+@Jay | C4 could you help me please?
+
+
+[12/08/2022 11:58] patb0x
+thanks everyone - congrats
+
+{Reactions}
+❤️ (4) 
+
+[12/08/2022 12:13] 2997ms
+it’s also my first time to get this rank, thank you code4rena👍👍
+
+{Reactions}
+🎉 (8) hi5 (5) 
+
+[12/08/2022 12:15] cloudellie
+Woohoo!
+
+
+[12/08/2022 13:51] .nalus
+finnally got better rank than @0xladboy | Sparkware I can die in peace now 😄
+
+{Reactions}
+👍 
+
+[12/08/2022 14:10] ladboy233
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/image-10291.png
+
+
+[12/08/2022 14:10] ladboy233
+Good for you!
+
+
+[12/08/2022 14:10] ladboy233
+Yeah my rank in contest are quite not consistent..
+
+
+[12/08/2022 14:11] ladboy233
+🫡
+
+
+[12/08/2022 14:16] .nalus
+Yeah it really depends on the mood and the competition itself. But I was following ur progress and you ve grown alot, so I set myself to beat u once 😄
+
+{Reactions}
+👍 (4) 👀 (3) 🔥 (4) hi5 (4) 🎉 (4) 
+
+[12/09/2022 09:59] cloudellie
+Hi there - I've looked into this, and from what I'm seeing, the issue that was marked `satisfactory` was grouped with a set of duplicates that were assigned a C grade by the judge. The `satisfactory` label should have been removed automatically, but was not. 
+
+The upshot is that it was graded as a C and therefore not eligible for awards. 
+
+As a backstage warden, you should have sufficient access privileges to click through to the set of dupes and understand the judge's decision process. Hope this helps.
+
+{Reactions}
+👍🏻 thankyou 
+
+[12/09/2022 14:40] PaludoX0#9748
+@CloudEllie - away I've same issue. I'm aware that my submissions were not the best ones, but on previous contests similar submissions were accepted. Anyway I've spent some time on this contest and I would like to understand why they have been discharged to learn for the future. I'm not a backstage warden. Is there any chance to check reasons?
+
+
+[12/09/2022 14:41] itsmetechjay
+The best way for you to check on this is after the findings repo is made public. We're doing our best to shorten the lag time between award announcements and publishing reports. Super appreciate your patience in the meantime!
+
+{Reactions}
+☝️ 🙏 thankyou 
+
+[12/09/2022 14:41] cloudellie
+Yes, +1 to Jay's comment. And if you haven't already done so, this is recommended reading: https://github.com/code-423n4/org/discussions/50
+
+{Embed}
+https://github.com/code-423n4/org/discussions/50
+Update to award formula, scoring, and contest rules · Discussion #5...
+In the interest of increasing the upper end payouts, significantly disincentivizing sybil attacks and homework sharing, and eliminating low-effort submissions as an acceptable part of C4, we are im...
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/50-21483
+
+{Reactions}
+thankyou (2) 
+
+[12/09/2022 18:03] lukejohn_
+@nalus that is a good goal
+
+{Reactions}
+🔥 
+
+[12/12/2022 10:47] lotux0722
+Hi, I partecipated in the contest and I have some technical questions about my submissions
+
+
+[12/21/2022 08:57] bulej93
+the report is out and the high's arent in the report.
+
+
+[12/21/2022 09:14] birdy0219
+There was not any found
+
+
+[12/21/2022 09:16] bulej93
+ooh ok
+
+
+[12/22/2022 07:37] sheldonholmgren
+I cannot see one of my findings in the report at all, not even downgraded. And this one I consider the most severe
+
+
+[12/22/2022 07:42] birdy0219
+Find your submissions : https://github.com/code-423n4/2022-10-inverse-findings/tree/main/data then click the issue #xxx link to see the issue raised and discussion/decisions related
+
+{Embed}
+https://github.com/code-423n4/2022-10-inverse-findings/tree/main/data
+2022-10-inverse-findings/data at main · code-423n4/2022-10-inverse-...
+Contribute to code-423n4/2022-10-inverse-findings development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - inverse-oct25 [1034129127806091304].txt_Files/afaca3d0-4303-443d-b7e2-d6414f24f325-B2A6B
+
+{Reactions}
+thankyou 
+
+[12/22/2022 07:45] birdy0219
+WD on 3rd btw 👍
+
+
+[12/22/2022 07:56] sheldonholmgren
+Thank you!
+
+
+[12/24/2022 10:32] sheldonholmgren
+I think https://github.com/code-423n4/2022-10-inverse-findings/issues/128 was incorrectly judged as QA. It was a duplicate of https://github.com/code-423n4/2022-10-inverse-findings/issues/395 which was first downgraded as QA but then bumped back up to M after consulting the sponsor. The sponsor implemented the fix recommended in 128. Same goes for https://github.com/code-423n4/2022-10-inverse-findings/issues/396 but this one might have come from the same warden as 395.
+
+
+[06/25/2023 16:22] shax2nk.in
+I'm recruiting moderators for a high salary (need to be very active) : https://discord.gg/H6r8hC9tq
+
+
+==============================================================
+Exported 413 message(s)
+==============================================================
